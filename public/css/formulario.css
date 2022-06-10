@@ -1,0 +1,115 @@
+
+.form-container {
+    padding: 10px;
+}
+
+.input-text,
+.input-email,
+.input-password,
+.input-date {
+    width: 90vw;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 2px;
+    border: solid 1px;
+}
+
+form div,
+form p {
+    margin-bottom: 10px;
+}
+main p {
+    font-size: 14px;
+    font-weight: bold;
+}
+.user-profile-container,
+.intereses-container {
+    margin-left: 15px;
+    font-size: 14px;
+}
+.user-profile-container{
+    display: flex;
+}
+.vendedor{
+    margin-left: 20px;
+}
+
+form button {
+    width: 30%;
+    padding: 5px;
+    background-color: #1259c3;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 450ms;
+    border-radius: 5px;
+    border-color: #1259c3;
+    border: solid 1px;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #0022AA;
+}
+.buttons {
+    display: flex;
+    justify-content: end;
+    
+}
+.resetear {
+    background-color: white;
+    color: #1259c3;
+}
+
+.resetear:hover{
+    background-color: #666;
+    color: white;
+}
+
+/*login*/
+
+.ingresar {
+    display: block;
+    margin: auto;
+}
+.ingresar:hover{
+    background-color: #0022AA;
+}
+.username{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.password {
+    margin-bottom: 30px;
+} 
+@media (min-width: 769px) {
+    .form-container {
+        text-align: center;
+    }
+    
+    .input-text,
+    .input-email,
+    .input-password,
+    .input-date {
+        width: 40vw;
+        font-size: 18px;
+        padding: 5px;
+    }
+    .user-profile-container{
+        justify-content: center;
+    }
+    
+    form button {
+        width: 20vw;
+    }
+    .buttons {
+        justify-content: center;
+    }
+    
+
+    .intereses-container {
+        text-align: justify;
+        margin-left: 40%;
+        margin-bottom: 20px;
+    }
+}
